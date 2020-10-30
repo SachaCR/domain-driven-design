@@ -1,10 +1,12 @@
-# Service
+# Services
 
 > In some cases, the clearest and most pragmatic design includes operations that do not conceptually belong to any object. Rather than force the issue, we can follow the natural contours of the problem spave and include SERVICES explicitly in the model.
 >
 > Some concepts from the domain aren't natural to model as objects. Forcing the required domain finctionnality to be the reponsibility of an ENTITY or VALUE either distorts the definition of a model-based object or adds meaningless artificial objects.
 >
-> A service is an operation offered as an interface that stands alone in the >model, without encapsulating state. as ENTITIES and CALUE OBJECTS do.
+> A service is an operation offered as an interface that stands alone in the >model, without encapsulating state. as ENTITIES and VALUE OBJECTS do.
+
+Here is what I imagine as a service after reading the previous section.
 
 ```js
 async function cartAddItemOperation(

@@ -1,9 +1,9 @@
-# Command Handler :
+# Command Handlers :
 
 Command handler responsibilities are :
 
-- Loads entities from repositories.
-- Use their functions to resolve the command.
+- Loads entities/aggregates from repositories.
+- Use their functions to mutate their internal state and resolve the command.
 - Persist updated entities with repositories.
 - Return a result outcome.
 
