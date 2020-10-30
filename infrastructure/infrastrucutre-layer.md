@@ -7,4 +7,4 @@
 > - drawing widgets for the UI,
 > - and so on...
 >
-> The infrastructure layer may also support the pattern of interactions >between the four layers through an architectural framework.
+> The infrastructure layer may also support the pattern of interactions between the four layers through an architectural framework.
